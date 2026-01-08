@@ -1,3 +1,7 @@
+---
+format: html
+---
+
 ## Boas vindas
 
 É com muita satisfação que lhe convidamos a navegar por este **Manual de Monitoramento Orçamentário do Programa de Metas 2025-2028**! O nosso objetivo com este material é apoiar você -- que representa o seu órgão na **Rede SMAE** -- a prestar informações sobre o planejamento e a execução orçamentária de cada meta no sistema oficial de monitoramento da Prefeitura de São Paulo -- o SMAE. Esperamos que o conteúdo deste documento seja útil não apenas para fornecer um guia operacional sobre como abastecer o SMAE, mas também para reforçar objetivos comuns entre a sua pasta e a Secretaria Municipal de Planejamento e Eficiência (SEPLAN), que visam enfrentar as seguintes questões:
