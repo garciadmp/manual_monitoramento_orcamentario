@@ -1,0 +1,1080 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+]{report}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Manual de Monitoramento Orçamentário do Programa de Metas 2025-2028},
+  pdfauthor={(SEPLAN/SIME/CPMA)},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Manual de Monitoramento Orçamentário do Programa de Metas
+2025-2028}
+\author{\textbf{(SEPLAN/SIME/CPMA)}}
+\date{}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, frame hidden, interior hidden, sharp corners, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, breakable]}{\end{tcolorbox}}\fi
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\bookmarksetup{startatroot}
+
+\hypertarget{boas-vindas}{%
+\chapter{Boas vindas}\label{boas-vindas}}
+
+É com muita satisfação que lhe convidamos a navegar por este
+\textbf{Manual de Monitoramento Orçamentário do Programa de Metas
+2025-2028}! O nosso objetivo com este material é apoiar você - que
+representa o seu órgão na \textbf{Rede SMAE} - a prestar informações
+sobre o planejamento e a execução orçamentária de cada meta no sistema
+oficial de monitoramento da Prefeitura de São Paulo - o SMAE. Esperamos
+que o conteúdo deste documento seja útil não apenas para fornecer um
+guia operacional sobre como abastecer o SMAE, mas também para reforçar
+objetivos comuns entre a sua pasta e a Secretaria Municipal de
+Planejamento e Eficiência (SEPLAN), que visam enfrentar as seguintes
+questões:
+
+\begin{itemize}
+\tightlist
+\item
+  Como entregar equipamentos, programas e serviços à população
+  garantindo uma relação custo-benefício adequada?
+\item
+  Como reduzir a dependência de movimentações orçamentárias ao longo do
+  exercício?
+\item
+  Como evitar que recuros disponíveis fiquem sem reserva, recursos
+  reservados fiquem sem empenhos e recursos empenhados fiquem sem
+  liquidação?
+\end{itemize}
+
+A contribuição da Rede SMAE e de SEPLAN para enfrentar as questões
+mencionadas reside em dar um passo pequeno, porém essecial: saber como a
+Prefeitura de São Paulo emprega recursos no Programa de Metas. Vamos
+entender melhor como monitorar o planejamento e a execução orçamentário
+do PdM?
+
+\bookmarksetup{startatroot}
+
+\hypertarget{o-que-uxe9-o-monitoramento-oruxe7amentuxe1rio-do-programa-de-metas}{%
+\chapter{O que é o monitoramento orçamentário do Programa de
+Metas?}\label{o-que-uxe9-o-monitoramento-oruxe7amentuxe1rio-do-programa-de-metas}}
+
+O monitoramento orçamentário é o processo contínuo de acompanhamento e
+avaliação da execução orçamentária do Programa de Metas (PdM) da
+Prefeitura de São Paulo (PMSP). \textbf{Mas para quê monitorar?}
+
+Existem três razões principais:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2083}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7917}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Dimensão} & \textbf{Descrição} \\
+\textbf{Gerencial} & Garantir que os recursos orçamentários previstos
+sejam utilizados de forma eficiente e em consonância com as prioridades
+estabelecidas pela gestão municipal, possibilitando ajustes de rota
+sempre que necessário. \\
+\textbf{Governamental} & Garantir que as peças orçamentárias (Plano
+Plurianual - PPA; Lei de Diretrizes Orçamentárias - LDO e Lei do
+Orçameno Anual - LOA) compreendam as prioridades estabelecidas pela
+gestão municipal, possibilitando coerência administrativa e capacidade
+de planejamento e execução. \\
+\textbf{Transparência} & Informar a sociedade civil e os órgãos de
+controle, cumprindo as prerrogativas do
+\href{https://legislacao.prefeitura.sp.gov.br/leis/lei-0-de-04-de-abril-de-1990}{Art.
+69-A, da Lei Orgânica do Município} e do
+\href{https://legislacao.prefeitura.sp.gov.br/leis/decreto-63336-de-10-de-abril-de-2024}{Decreto
+63.336/2024}. \\
+\end{longtable}
+
+Sabemos que a tarefa de prover informações orçamentárias não é a mais
+simples. É, na verdade, muito trabalhosa. Mas por entendermos que ela
+cumpre funções em diferentes dimensões - seja para subsidiar decisões
+do(a) Prefeito(a), seja para fomentar a transparência e o controle
+social -, queremos tornar esta tarefa tanto menos árdua quanto mais
+valiosa.
+
+Vamos, então, falar sobre quem faz o quê no monitoramento orçamentário
+do Programa de Metas?
+
+\bookmarksetup{startatroot}
+
+\hypertarget{quem-faz-o-monitoramento-oruxe7amentuxe1rio-do-programa-de-metas}{%
+\chapter{Quem faz o monitoramento orçamentário do Programa de
+Metas?}\label{quem-faz-o-monitoramento-oruxe7amentuxe1rio-do-programa-de-metas}}
+
+Uma vez que a Secretaria Municipal de Planejamento e Eficiência (SEPLAN)
+é responsável tanto pelo Programa de Metas quanto pela elaboração das
+peças orçamentárias, além de outras atribuições, é fundamental conhecer
+as diferentes áreas internas, bem como os pontos de interlocução com a
+sua pasta. Vamos apresentar na tabela, a seguir, um conjunto de
+interações que SEPLAN estabelece com a sua secretaria para além do
+Programa de Metas, para, em seguida, voltarmos ao objetivo deste Manual.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0736}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.7057}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2174}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Unidade de SEPLAN
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+O que faz?
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Interlocutor no órgão
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+SEPLAN/SIME/CPMA & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Monitora a execução física e orçamentária do Programa de Metas, por
+  meio do SMAE.
+\item
+  Gerencia o Observasampa e coleta indicadores a serem atualizados na
+  plataforma.
+\item
+  Subsidia a utilização do Módulo de Planos Setoriais do SMAE.
+\end{enumerate}
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Rede SMAE.
+\item
+  Representante do Grupo Técnico de Indicadores.
+\item
+  Rede SMAE.
+\end{enumerate}
+\end{minipage} \\
+SEPLAN/COPOM & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Elabora os projetos de lei do PPA, LDO e LOA.
+\end{enumerate}
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Grupos de planejamento orçamentário.
+\end{enumerate}
+\end{minipage} \\
+SEPLAN/COPOM/DIPROJ & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Monitora as principais fontes de pressão orçamentária ao longo da
+  execução orçamentária anual, sob a perspectiva do orçamento geral de
+  cada órgão (e não apenas do Programa de Metas).
+\end{enumerate}
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Unidades orçamentárias-financeiras das pastas e Rede SMAE.
+\end{enumerate}
+\end{minipage} \\
+SEPLAN/COPOM/DIPAR & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Conduz e monitora os processos e compromissos do Orçamento Cidadão.
+\end{enumerate}
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Grupos de planejamento orçamentário e Rede SMAE.
+\end{enumerate}
+\end{minipage} \\
+SEPLAN/COPOM/CGO & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Promove a analise, o julgamento e as respectivas movimentações
+  orçamentárias propostas pelas pastas (as movimentações que envolvem
+  ações do Programa de Metas são analisadas, também, por
+  SEPLAN/SIME/CPMA).
+\end{enumerate}
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Unidades orçamentárias-financeiras das pastas.
+\end{enumerate}
+\end{minipage} \\
+SEPLAN/SIME/CAE & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Monitora projetos da carteira prioritária do Prefeito (parte dos
+  projetos fazem parte do Programa de Metas).
+\item
+  Monitora obras (parte das obras fazem parte do Programa de Metas).
+\end{enumerate}
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Gerentes de projetos, indicados pelos Gabinetes.
+\item
+  Interlocutores indicados pelos Gabinetes.
+\end{enumerate}
+\end{minipage} \\
+SEPLAN/SIME/CFOU & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Monitora fundos e operações urbanas (parte dos planos de aplicação dos
+  fundos e das operações urbanas fazem parte do Programa de Metas).
+\end{enumerate}
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Interlocutres indicados pelos Gabinetes.
+\end{enumerate}
+\end{minipage} \\
+\end{longtable}
+
+Na \textbf{Gestão 2025-2028}, sete unidades de SEPLAN podem manter
+comunicações com a sua pasta, visando levantar informações necessárias
+ao cumprimento das atribuições previstas no
+\href{https://legislacao.prefeitura.sp.gov.br/leis/decreto-64341-de-2-de-julho-de-2025}{Decreto
+64.341/2025}, que define a atuação institucional de SEPLAN.
+
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, rightrule=.15mm, toprule=.15mm, breakable, leftrule=.75mm, left=2mm, colbacktitle=quarto-callout-tip-color!10!white, colframe=quarto-callout-tip-color-frame, toptitle=1mm, bottomtitle=1mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, colback=white, opacitybacktitle=0.6, arc=.35mm, bottomrule=.15mm, opacityback=0]
+
+\textbf{Uma vez que as interações podem ser realizadas por
+interlocutores diferentes, tanto em SEPLAN (CPMA, COPOM, CAE etc.)
+quanto na sua pasta (Rede SMAE, Grupo de Planejamento Orçamentário
+etc.), é fundamental identificar os(as) profissonais que exercem este
+papel.}
+
+\end{tcolorbox}
+
+Como pode ser observado na tabela, o monitoramento orçamentário do
+Programa de Metas é conduzido pela Coordenadoria de Planejamento,
+Monitoramento e Avaliação, da Secretaria Executiva de Monitoramento e
+Informações Estratégicas, da SEPLAN (SEPLAN/SIME/CPMA). Esta é a unidade
+responsável por:
+
+\begin{itemize}
+\item
+  Estabelecer diretrizes e orientações aos órgãos sobre \textbf{O QUE
+  DEVE SER CONTABILIZADO PARA FINS DE MONITORAMENTO DO PROGRAMA DE
+  METAS};
+\item
+  Organizar as \textbf{ETAPAS DE MONITORAMENTO ORÇAMENTÁRIO DO PROGRAMA
+  DE METAS};
+\item
+  Oferecer \textbf{SUPORTE TÉCNICO E DIFUNDIR O USO DO SMAE}.
+\end{itemize}
+
+Vamos entender como cada uma desses pontos funciona na prática?
+
+\bookmarksetup{startatroot}
+
+\hypertarget{o-que-deve-ser-contabilizado-para-fins-de-monitoramento-oruxe7amentuxe1rio-do-programa-de-metas}{%
+\chapter{O que deve ser contabilizado para fins de monitoramento
+orçamentário do Programa de
+Metas?}\label{o-que-deve-ser-contabilizado-para-fins-de-monitoramento-oruxe7amentuxe1rio-do-programa-de-metas}}
+
+São consideradas despesas do Programas de Metas:
+
+\begin{itemize}
+\item
+  Despesas com projetos técnicos, pré-projetos e estudos preliminares
+  para implantação de obras previstas no Programa de Metas;
+\item
+  Despesas com desapropriações;
+\item
+  Despesas para construção de novos equipamentos ou realização de novas
+  obras, tanto em dotações de projetos quanto em dotações de atividades;
+\item
+  Despesas para gerenciamento (físico e, quando aplicável, social) de
+  novos equipamentos ou novas obras;
+\item
+  Despesas para reformas, ampliações ou requalificações em equipamentos;
+\item
+  Despesas para o custeio de equipamentos, programas ou serviços
+  implementados;
+\item
+  Despesas de exercícios anteriores (DEA), desde que restritos aos itens
+  anteriores.
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, rightrule=.15mm, toprule=.15mm, breakable, leftrule=.75mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, colframe=quarto-callout-note-color-frame, toptitle=1mm, bottomtitle=1mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, colback=white, opacitybacktitle=0.6, arc=.35mm, bottomrule=.15mm, opacityback=0]
+
+\textbf{Exemplos}
+
+A Secretaria da Educação (SME) está realizando obras via SP-OBRAS para
+inaugurar uma novo Centro Educacional Unificado (CEU) em agosto de 2026:
+antes da inauguração, deve-se contabilizar os valores com projetos,
+estudos, obras, desapropriações (se houver). Após a inauguração, deve-se
+contabilizar: despesas com segurança, contas de consumo, pessoal (apenas
+se tiver havido contratação específica para esse fim).
+
+A Secretaria de Saúde (SMS) vai aumentar o repasse a um Organização
+Social (OS) para que um novo prédio seja reformado e uma nova Unidade
+Básica de Saúde (UBS) entre em funcionamento: deve-se contabilizar o
+valor excedente repassado a OS.
+
+A Secretaria de Desenvolvimento Econômico e Trabalho (SMDET) pactuou
+novo contrato de gestão com a Agência São Paulo de Desenvolvimento
+(ADESAMPA) em que um dos compromissos do Contrato de Gestão é uma ação
+do Programa de Metas: deve-se contabilizar a proporção do Contrato de
+Gestão equivalente às entregas do Programa de Metas.
+
+\end{tcolorbox}
+
+Não são consideradas despesas do Programa de Metas:
+
+\begin{itemize}
+\item
+  Despesas de obras não previstas no Programa de Metas;
+\item
+  Despesas de custeio de equipamentos, programas ou serviços
+  implementados em período anterior ao Programa de Metas vigente;
+\item
+  Despesas administrativas, cujo escopo contratado não tenha relação com
+  metas ou ações previstas no Programa de Metas
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, rightrule=.15mm, toprule=.15mm, breakable, leftrule=.75mm, left=2mm, colbacktitle=quarto-callout-tip-color!10!white, colframe=quarto-callout-tip-color-frame, toptitle=1mm, bottomtitle=1mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip}, colback=white, opacitybacktitle=0.6, arc=.35mm, bottomrule=.15mm, opacityback=0]
+
+\textbf{A ``regra de ouro'' do monitoramento orçamentário do Programa de
+Metas é capturar:}
+
+\begin{itemize}
+\item
+  \textbf{os novos investimentos e}
+\item
+  \textbf{a expansão do custeio.}
+\end{itemize}
+
+\end{tcolorbox}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{quais-suxe3o-as-etapas-de-monitoramento-oruxe7amentuxe1rio-do-programa-de-metas}{%
+\chapter{Quais são as etapas de monitoramento orçamentário do Programa
+de
+Metas?}\label{quais-suxe3o-as-etapas-de-monitoramento-oruxe7amentuxe1rio-do-programa-de-metas}}
+
+O monitoramento orçamentário do Programa de Metas segue um ciclo
+composto por quatro fases principais: (1) Previsão de Custo; (2)
+Orçamento Planejado; (3) Execução Orçamentária; (4) Avaliação. Cada
+estágio envolve etapas de análise, validação e consolidação das
+informações fornecidas pelos órgãos, de forma a acompanhar a execução
+das metas e subsidiar a gestão dos recursos.
+
+\hypertarget{previsuxe3o-de-custo}{%
+\section{Previsão de custo}\label{previsuxe3o-de-custo}}
+
+A fase de Previsão marca o início do ciclo e consiste em informar a
+estimativa de custo quadrienal, segmentada por ano, para cada meta.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.1124}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.8876}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Aspecto} & \textbf{Descrição} \\
+\textbf{Quando ocorre} & Até 15 de Abril de cada exercício \\
+\textbf{Quem faz} & Secretarias \\
+\textbf{Onde inserir} & SMAE \textgreater{} Visão orçamentária
+\textgreater{} Previsão de Custo \\
+\textbf{O que inserir} & O custo estimado da Meta ou Ação, ano a ano,
+até totalizar o quadriênio, informando partes da dotação orçamentária e
+vinculando a dotação à Meta ou à Ação. \\
+\end{longtable}
+
+\textbf{Passos para preenchimento no SMAE:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Acesse a aba ``Programa de Metas''
+\item
+  No menu lateral esquerdo, clique em ``Metas''
+\item
+  Selecione a meta desejada
+\item
+  No menu lateral, clique em ``Previsão de custo''
+\end{enumerate}
+
+\begin{figure}
+
+\includegraphics{figura1_tela_previsao_custo.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 1.} Tela de Previsão de Custo no SMAE.
+
+Na tela de \textbf{Previsão de Custo}, clique em ``\textbf{(+) ADICIONAR
+PREVISÃO DE CUSTO}. É nesta tela que você informará:
+
+\begin{itemize}
+\tightlist
+\item
+  dotação orçamentária (parcial): Órgão, Unidade, Função,
+  Projeto/Atividade e Fonte. Os demais são opcionais;
+\item
+  vinculação da dotação com a Meta OU com a ação estratégica;
+\item
+  Custo estimado da meta ou da ação
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, rightrule=.15mm, toprule=.15mm, breakable, leftrule=.75mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, colframe=quarto-callout-note-color-frame, toptitle=1mm, bottomtitle=1mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, colback=white, opacitybacktitle=0.6, arc=.35mm, bottomrule=.15mm, opacityback=0]
+
+O custo estimado da meta ou da ação é o valor monetário real ou estimado
+para a sua concretização, independentemente dos valores orçados e
+disponíveis nas dotações informadas.
+
+\end{tcolorbox}
+
+\begin{figure}
+
+\includegraphics{figura2_adicionar_previsao_custo.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 2.} Adicionando Previsão de Custo no SMAE.
+
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, rightrule=.15mm, toprule=.15mm, breakable, leftrule=.75mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, colframe=quarto-callout-note-color-frame, toptitle=1mm, bottomtitle=1mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, colback=white, opacitybacktitle=0.6, arc=.35mm, bottomrule=.15mm, opacityback=0]
+
+\begin{itemize}
+\item
+  Embora a inserção da Previsão de Custo deva ser concluído no SMAE até
+  abril de cada exercício, é possível que SEPLAN/SIME/CPMA colete, em
+  fevereiro e março, informações adicionais junto à sua pasta, em
+  complemento ao que estiver disponível no SMAE, para fins de construção
+  do \textbf{ANEXO DE METAS E INVESTIMENTOS}, do Projeto de Lei de
+  Diretrizes Orçamentárias.
+\item
+  Esta coleta adicional \textbf{não se confunde com o processo conduzido
+  por SEPLAN/COPOM para a elaboração do PLDO}, cujo prazo de entrega ao
+  Legislativo é 15 de abril, de cada ano e que, por isso, tende a
+  demandar informações de caráter geral (e não restritas ao Programa de
+  Metas) nos períodos de fevereiro e março.
+\item
+  Note que a previsão de custo é mais intensiva no primeiro ano de
+  vigência do Programa de Metas. Nos anos seguintes, podem ocorrer
+  revisões. É plausível, inclusive, que a previsão de custo seja
+  inserida uma única vez no quadriênio.
+\item
+  Diversos fatores podem ensejar necessidade de revisão de custos:
+
+  \begin{itemize}
+  \item
+    Mudanças no modelo de implementação do equipamento, programa ou
+    serviço (de contratação direta para PPP, por exemplo);
+  \item
+    Mudanças em variáveis macroeconômicas, preços de commodities e
+    reequlíbrios econômico-financeiros de contratos;
+  \item
+    Mudanças no escopo, prazos ou itens de qualidade previamente
+    especificados para o equipamento, programa ou serivço;
+  \item
+    Mudanças de fornecedores.
+  \end{itemize}
+\item
+  É fundamental disponilizar para SEPLAN/SIME/CPMA \textbf{memórias de
+  cálculo} sobre o custo da meta. Combine com o(a) ponto-focal o meio
+  para entrega (SMAE, e-mail), mas não deixe de apresentar a composição
+  do custo do equipamento, programa ou serviço pactuado no Programa de
+  Metas.
+\item
+  \textbf{As informações sobre custos não fazem parte do monitoramento
+  externo} do Programa de Metas, ou seja, não são disponibilizadas
+  publicamente nos Relatórios de Execução Anual e nos balanços
+  semestrais.
+\end{itemize}
+
+\end{tcolorbox}
+
+\hypertarget{oruxe7amento-planejado}{%
+\section{Orçamento planejado}\label{oruxe7amento-planejado}}
+
+O registro do orçamento planejado no SMAE consiste em informar os
+valores efetivamente contemplados na Lei Orçamentária de cada ano, nas
+dotações vinculadas ao Programa de Metas.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.1156}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.8844}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Aspecto} & \textbf{Descrição} \\
+\textbf{Quando ocorre} & Até 15 de Abril de cada exercício \\
+\textbf{Quem faz} & Secretarias \\
+\textbf{Onde inserir} & SMAE \textgreater{} Visão orçamentária
+\textgreater{} Orçamento planejado \\
+\textbf{O que inserir} & Valor destinado ao Programa de Metas para o
+exercício, no limite dos valores orçados aprovados na Lei de Orçamento
+Anaual, vinculnado-o à Meta ou Ação \\
+\end{longtable}
+
+\textbf{Passos para preenchimento no SMAE:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Acesse a aba ``Programa de Metas''
+\item
+  No menu lateral esquerdo, clique em ``Metas''
+\item
+  Selecione a meta desejada
+\item
+  No menu lateral, clique em ``Orçamento Planejado''
+\end{enumerate}
+
+\begin{figure}
+
+\includegraphics{figura3_tela_orcamento_planejado.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 3.} Tela de Orçamento Planejado no SMAE.
+
+Na tela de \textbf{Orçamento Planejado}, clique em ``\textbf{(+)
+ADICIONAR DOTAÇÃO}. É nesta tela que você informará:
+
+\begin{itemize}
+\tightlist
+\item
+  dotação orçamentária completa;
+\item
+  vinculação da dotação com a Meta OU com a ação estratégica;
+\item
+  Valor da meta ou da ação para o exercício, limitado ao valor aprovado
+  na LOA.
+\end{itemize}
+
+\begin{figure}
+
+\includegraphics{figura4_adicionar_orcamento_planejado.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 4.} Adicionando Orçamento Planejado no SMAE.
+
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, rightrule=.15mm, toprule=.15mm, breakable, leftrule=.75mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, colframe=quarto-callout-note-color-frame, toptitle=1mm, bottomtitle=1mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, colback=white, opacitybacktitle=0.6, arc=.35mm, bottomrule=.15mm, opacityback=0]
+
+Note que se as informações sobre a \textbf{PREVISÃO DE CUSTO} e sobre o
+\textbf{ORÇAMENTO PLANEJADO} estiverem adequadamente registradas no
+SMAE, tanto a sua pasta quanto SEPLAN conseguem mapear eventuais
+\textbf{PRESSÕES ORÇAMENTÁRIAS} para cada exercício. Em outras palavras,
+caso saibamos que se em uma determinada dotação, o custo previsto for
+maior do que o valor orçado, é provável que a sua pasta necessitará de
+mais recursos para concretização da Meta ou Ação vinculada a esta
+dotação.
+
+\end{tcolorbox}
+
+\hypertarget{execuuxe7uxe3o-oruxe7amentuxe1ria}{%
+\section{Execução
+orçamentária}\label{execuuxe7uxe3o-oruxe7amentuxe1ria}}
+
+O registro da execução orçamentária no SMAE consiste em informar os
+valores efetivamente empenhados e liquidados com despesas do Programa de
+Metas.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.0448}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.9552}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Aspecto} & \textbf{Descrição} \\
+\textbf{Quando ocorre} & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{itemize}
+\item
+  \textbf{Até 15 de Janeiro}: referente à execução orçamentária
+  acumulada do \textbf{exercício anterior};
+\item
+  \textbf{Até 15 de Abril}: referente à execução acumulada dos
+  \textbf{três primeiros meses do exercício};
+\item
+  \textbf{Até 15 de Julho}: referente à execução acumulada dos
+  \textbf{seis primeiros meses do exercício};
+\item
+  \textbf{Até 15 de Outubro}: referente à execução acumulada dos
+  \textbf{noves primeiros meses do exercício}.
+\end{itemize}
+\end{minipage} \\
+\textbf{Quem faz} & Secretarias \\
+\textbf{Onde inserir} & SMAE \textgreater{} Visão orçamentária
+\textgreater{} Execução orçamentária \\
+\textbf{O que inserir} & \begin{minipage}[t]{\linewidth}\raggedright
+Despesas contabilizadas para fins de monitoramento orçamentário do
+Programa de Metas, apuradas em:
+
+\begin{itemize}
+\item
+  \textbf{dotações orçamentárias}: deve ser utilizada apenas quando
+  existir uma \textbf{dotação orçamentária exclusiva} para o
+  equipamento, programa ou serviço pactuado no Programa de Metas, de
+  forma que todas as despesas que oneram a referida dotação sejam
+  passíveis de contabilização para fins de monitoramento orçamentário do
+  PdM.
+\item
+  \textbf{processos SEI}: deve ser utilizado quando não há dotação
+  exclusiva, mas a despesa do Programa de Metas ocorreu por meio de uma
+  \textbf{contratação exclusiva} para a entrega do equipamento, programa
+  ou serviço pactuado no Programa de Metas. Nesses casos, deve-se
+  informar os números dos processos de contratação (processos com Notas
+  de Empenho) e os processos de pagamentos (processos com Notas de
+  Liquidação e Pagamento).
+\item
+  \textbf{notas de empenho}: devem ser utilizadas quando parte de uma
+  contratação é destinada aos compromissos do Programa de Metas ou
+  quando o período de uma contratação exclusiva extrapola um exercício.
+  Trata-se do nível de maior granularidade para o monitoramento
+  orçamentário e, por esta razão, é \textbf{preferível em relação às
+  demais opções}. \textbar{}
+\end{itemize}
+\end{minipage} \\
+\end{longtable}
+
+\textbf{Passos para preenchimento no SMAE:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Acesse a aba ``Programa de Metas''
+\item
+  No menu lateral esquerdo, clique em ``Metas''
+\item
+  Selecione a meta desejada
+\item
+  No menu lateral, clique em ``Execução Orçamentária''
+\end{enumerate}
+
+\begin{figure}
+
+\includegraphics{figura5_tela_execucao_orcamentaria.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 5.} Tela de Execução Orçamentária no SMAE.
+
+Após analisar o atributo de \textbf{exclusividade} das dotações e
+contratações, opte se a execução orçamentária acumulada do período será
+informada por \textbf{dotação, processo ou nota de empenho}.
+
+\hypertarget{dotauxe7uxe3o}{%
+\subsection{Dotação}\label{dotauxe7uxe3o}}
+
+\begin{figure}
+
+\includegraphics{figura6_adicionar_execucao_dotacao.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 6.} Adicionando Execução Orçamentária no SMAE, por
+dotação.
+
+Após fazer a vinculação da dotação orçamentária com a meta ou com a ação
+estratégica:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Clique em ``\textbf{(+) INFORMAR EXECUÇÃO ORÇAMENTÁRIA}''.
+\item
+  Informe o \textbf{mês de referência}: trata-se do mês até o qual os
+  valores executados estão acumulados.
+\item
+  Informe o \textbf{Valor Executado}: trata-se do valor acumulado até o
+  mês de referência. É possível obter o valor executado tanto pela
+  inserção direta do valor quanto pela percentagem (0 a 100) referente
+  ao Programa de Metas na dotação orçamentária informada.
+\item
+  Clique em \textbf{Salvar} para finalizar.
+\end{enumerate}
+
+\begin{figure}
+
+\includegraphics{figura7_adicionar_execucao_dotacao_complemento.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 7.} Adicionando Execução Orçamentária no SMAE, por
+dotação - inserindo valores.
+
+\hypertarget{processo}{%
+\subsection{Processo}\label{processo}}
+
+\begin{figure}
+
+\includegraphics{figura8_adicionar_execucao_processo.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 8.} Adicionando Execução Orçamentária no SMAE, por
+processo
+
+Após selecionar a dotação orçamentária e fazer a vinculação com a meta
+ou com a ação estratégica, sigo os passos da \textbf{Figura 7}:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Clique em ``\textbf{(+) INFORMAR EXECUÇÃO ORÇAMENTÁRIA}''.
+\item
+  Informe o \textbf{mês de referência}: trata-se do mês até o qual os
+  valores executados estão acumulados.
+\item
+  Informe o \textbf{Valor Executado}: trata-se do valor acumulado até o
+  mês de referência. É possível obter o valor executado tanto pela
+  inserção direta do valor quanto pela percentagem (0 a 100) referente
+  ao Programa de Metas na dotação orçamentária informada.
+\item
+  Clique em \textbf{Salvar} para finalizar.
+\end{enumerate}
+
+\hypertarget{nota-de-empenho}{%
+\subsection{Nota de empenho}\label{nota-de-empenho}}
+
+\begin{figure}
+
+\includegraphics{figura9_adicionar_execucao_nota_empenho.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 9.} Adicionando Execução Orçamentária no SMAE, por nota
+de empenho
+
+Após informar o número e o ano da nota de empenho, sigo os passos da
+\textbf{Figura 7}:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Clique em ``\textbf{(+) INFORMAR EXECUÇÃO ORÇAMENTÁRIA}''.
+\item
+  Informe o \textbf{mês de referência}: trata-se do mês até o qual os
+  valores executados estão acumulados.
+\item
+  Informe o \textbf{Valor Executado}: trata-se do valor acumulado até o
+  mês de referência. É possível obter o valor executado tanto pela
+  inserção direta do valor quanto pela percentagem (0 a 100) referente
+  ao Programa de Metas na dotação orçamentária informada.
+\item
+  Clique em \textbf{Salvar} para finalizar.
+\end{enumerate}
+
+\hypertarget{upload-de-arquivo-.xlsx}{%
+\subsection{Upload de arquivo .xlsx}\label{upload-de-arquivo-.xlsx}}
+
+Se deseja informar os dados de execução orçmentária via planilha:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Acesse a aba ``Programa de Metas'';
+\item
+  No menu lateral esquerdo, clique em ``Envio de arquivos''.
+\end{enumerate}
+
+\begin{figure}
+
+\includegraphics{figura10_tela_envio_arquivos.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 10.} Tela para informar execução orçamentária via upload
+de arquivo .xlsx
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\item
+  Selecione a versão do PdM que está em uso;
+\item
+  Escolha a opção ``enviar arquivo'', localizada no canto superior
+  direito.
+\end{enumerate}
+
+\begin{figure}
+
+\includegraphics{figura11_tela_envio_arquivos_complemento.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 11.} Tela para informar execução orçamentária via upload
+de arquivo .xlsx
+
+A planilha a ser inserida deve seguir o seguinte modelo:
+
+\begin{figure}
+
+\includegraphics[width=1\textwidth,height=\textheight]{figura12_modelo_planilha_upload.png} \hfill{}
+
+\end{figure}
+
+\textbf{Figura 12.} Modelo de planilha para informar execução
+orçamentária via upload de arquivo .xlsx
+
+Durante o preenchimento, alguns padrões precisam ser seguidos para que o
+SMAE processe os dados:
+
+\begin{itemize}
+\item
+  É necessário selecionar apenas uma forma de identificação das
+  informações a serem inseridas, ou seja, dotação, processo SEI ou nota
+  de empenho. Caso uma mesma linha da planilha contenha mais de um
+  desses campos (por exemplo, o número da dotação e da nota de empenho
+  simultaneamente), o SMAE não processará os dados corretamente,
+  exigindo nova submissão da planilha ou ajuste manual das informações
+\item
+  No caso dos processos SEI, se o órgão optar por essa forma de
+  identificação, é necessário informar, junto ao número do processo, a
+  dotação orçamentária, pois pode haver mais de uma dotação vinculada a
+  um mesmo processo. Caso essa especificação não seja incluída, o SMAE
+  não processará a informação
+\item
+  As metas sempre devem ser informadas com três dígitos, como 002, 076
+  ou 114.
+\end{itemize}
+
+\hypertarget{avaliauxe7uxe3o}{%
+\section{Avaliação}\label{avaliauxe7uxe3o}}
+
+A fase de Avaliação é realiada por \textbf{SEPLAN/SIME/CPMA}, com a
+consolidação dos dados obtidos nas etapas anteriores, permitindo à
+SEPLAN analisar o desempenho orçamentário e identificar riscos que
+possam comprometer o atingimento das metas, como inexecução de recursos,
+contingenciamentos ou descompasso entre gastos e entregas. A partir
+dessa análise, são elaboradas recomendações e orientações técnicas
+voltadas ao aperfeiçoamento da execução orçamentária e à mitigação de
+riscos.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{normas-aplicuxe1veis-ao-monitoramento-oruxe7amentuxe1rio}{%
+\chapter{Normas aplicáveis ao monitoramento
+orçamentário}\label{normas-aplicuxe1veis-ao-monitoramento-oruxe7amentuxe1rio}}
+
+\hypertarget{programa-de-metas}{%
+\section{Programa de Metas}\label{programa-de-metas}}
+
+\href{https://legislacao.prefeitura.sp.gov.br/leis/decreto-64341-de-2-de-julho-de-2025}{Decreto
+63.336/2024}: Estabelece procedimentos para o monitoramento e a
+avaliação do Programa de Metas, previsto no artigo 69-A da Lei Orgânica
+do Município de São Paulo; institui a Rede do Sistema de Monitoramento e
+Acompanhamento Estratégico do Programa de Metas - Rede SMAE, dentre
+outras providências.
+
+Portaria SEPLAN/XX/2026: Dispõe sobre detalhamentos das orientações e
+procedimentos atinentes ao monitoramento do Programa de Metas, previsto
+no Art. 69-A da Lei Orgânica do Município de São Paulo, regulamentado
+pelo Decreto nº 63.336, de 11 de abril de 2024
+
+\hypertarget{execuuxe7uxe3o-oruxe7amentuxe1ria-1}{%
+\section{Execução
+orçamentária}\label{execuuxe7uxe3o-oruxe7amentuxe1ria-1}}
+
+\href{http://legislacao.prefeitura.sp.gov.br/leis/decreto-64755-de-27-de-novembro-de-2025}{Decreto
+64.755/2025}: Dispõe sobre o encerramento do exercício de 2025.
+
+\href{https://legislacao.prefeitura.sp.gov.br/leis/decreto-64008-de-16-de-janeiro-de-2025}{Decreto
+64.008/2025}: Fixa normas referentes à execução orçamentária e
+financeira para o exercício de 2025.
+
+
+
+\end{document}

@@ -1,0 +1,42 @@
+---
+title: "Quem faz o monitoramento orçamentário?"
+---
+
+Uma vez que a Secretaria Municipal de Planejamento e Eficiência (SEPLAN) é responsável tanto pelo Programa de Metas quanto pela elaboração das peças orçamentárias, além de outras atribuições, é fundamental conhecer as diferentes áreas internas, bem como os pontos de interlocução com a sua pasta. Vamos apresentar na tabela, a seguir, um conjunto de interações que SEPLAN estabelece com a sua secretaria para além do Programa de Metas, para, em seguida, voltarmos ao objetivo deste Manual.
+
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+
+| Unidade de SEPLAN   | O que faz?                                                                                                                                                                                                       | Interlocutor no órgão                                          |
++=====================+==================================================================================================================================================================================================================+================================================================+
+| SEPLAN/SIME/CPMA    | 1.  Monitora a execução física e orçamentária do Programa de Metas, por meio do SMAE.                                                                                                                            | 1.  Rede SMAE.                                                 |
+|                     | 2.  Gerencia o ObservaSampa e coleta indicadores a serem atualizados na plataforma.                                                                                                                              | 2.  Representante do Grupo Técnico de Indicadores.             |
+|                     | 3.  Subsidia a utilização do Módulo de Planos Setoriais do SMAE.                                                                                                                                                 | 3.  Rede SMAE.                                                 |
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+
+| SEPLAN/COPOM        | 1.  Elabora os projetos de lei do PPA, LDO e LOA.                                                                                                                                                                | 1.  Grupos de planejamento orçamentário.                       |
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+
+| SEPLAN/COPOM/DIPROJ | 1.  Monitora as principais fontes de pressão orçamentária ao longo da execução orçamentária anual, sob a perspectiva do orçamento geral de cada órgão (e não apenas do Programa de Metas).                       | 1.  Unidades orçamentárias-financeiras das pastas e Rede SMAE. |
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+
+| SEPLAN/COPOM/DIPAR  | 1.  Conduz e monitora os processos e compromissos do Orçamento Cidadão.                                                                                                                                          | 1.  Grupos de planejamento orçamentário e Rede SMAE.           |
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+
+| SEPLAN/COPOM/CGO    | 1.  Promove a análise, o julgamento e as respectivas movimentações orçamentárias propostas pelas pastas (as movimentações que envolvem ações do Programa de Metas são analisadas, também, por SEPLAN/SIME/CPMA). | 1.  Unidades orçamentárias-financeiras das pastas.             |
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+
+| SEPLAN/SIME/CAE     | 1.  Monitora projetos da carteira prioritária do Prefeito (parte dos projetos fazem parte do Programa de Metas).                                                                                                 | 1.  Gerentes de projetos, indicados pelos Gabinetes.           |
+|                     | 2.  Monitora obras (parte das obras fazem parte do Programa de Metas).                                                                                                                                           | 2.  Interlocutores indicados pelos Gabinetes.                  |
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+
+| SEPLAN/SIME/CFOU    | 1.  Monitora fundos e operações urbanas (parte dos planos de aplicação dos fundos e das operações urbanas fazem parte do Programa de Metas).                                                                     | 1.  Interlocutores indicados pelos Gabinetes.                  |
++---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+
+
+Na **Gestão 2025-2028**, sete unidades de SEPLAN podem manter comunicações com a sua pasta, visando levantar informações necessárias ao cumprimento das atribuições previstas no [Decreto 64.341/2025](https://legislacao.prefeitura.sp.gov.br/leis/decreto-64341-de-2-de-julho-de-2025), que define a atuação institucional de SEPLAN.
+
+::: callout-tip
+**Uma vez que as interações podem ser realizadas por interlocutores diferentes, tanto em SEPLAN (CPMA, COPOM, CAE etc.) quanto na sua pasta (Rede SMAE, Grupo de Planejamento Orçamentário etc.), é fundamental identificar os(as) profissionais que exercem este papel.**
+:::
+
+Como pode ser observado na tabela, o monitoramento orçamentário do Programa de Metas é conduzido pela Coordenadoria de Planejamento, Monitoramento e Avaliação, da Secretaria Executiva de Monitoramento e Informações Estratégicas, da SEPLAN (SEPLAN/SIME/CPMA). Esta é a unidade responsável por:
+
+-   Estabelecer diretrizes e orientações aos órgãos sobre **O QUE DEVE SER CONTABILIZADO PARA FINS DE MONITORAMENTO DO PROGRAMA DE METAS**;
+
+-   Organizar as **ETAPAS DE MONITORAMENTO ORÇAMENTÁRIO DO PROGRAMA DE METAS**;
+
+-   Oferecer **SUPORTE TÉCNICO E DIFUNDIR O USO DO SMAE**.
+
+Vamos entender como cada uma desses pontos funciona na prática?

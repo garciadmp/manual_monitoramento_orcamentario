@@ -1,0 +1,45 @@
+---
+title: "O que deve ser contabilizado para fins de monitoramento orçamentário?"
+---
+
+São consideradas despesas do Programa de Metas:
+
+-   Despesas com projetos técnicos, pré-projetos e estudos preliminares para implantação de obras previstas no Programa de Metas;
+
+-   Despesas com desapropriações;
+
+-   Despesas para construção de novos equipamentos ou realização de novas obras, tanto em dotações de projetos quanto em dotações de atividades;
+
+-   Despesas para gerenciamento (físico e, quando aplicável, social) de novos equipamentos ou novas obras;
+
+-   Despesas para reformas, ampliações ou requalificações em equipamentos;
+
+-   Despesas para o custeio de equipamentos, programas ou serviços implementados;
+
+-   Despesas de exercícios anteriores (DEA), desde que restritos aos itens anteriores.
+
+::: callout-note
+**Exemplos**
+
+A Secretaria da Educação (SME) está realizando obras via SP-OBRAS para inaugurar um novo Centro Educacional Unificado (CEU) em agosto de 2026: antes da inauguração, deve-se contabilizar os valores com projetos, estudos, obras, desapropriações (se houver). Após a inauguração, deve-se contabilizar: despesas com segurança, contas de consumo, pessoal (apenas se tiver havido contratação específica para esse fim).
+
+A Secretaria de Saúde (SMS) vai aumentar o repasse a uma Organização Social (OS) para que um novo prédio seja reformado e uma nova Unidade Básica de Saúde (UBS) entre em funcionamento: deve-se contabilizar o valor excedente repassado a OS.
+
+A Secretaria de Desenvolvimento Econômico e Trabalho (SMDET) pactuou novo contrato de gestão com a Agência São Paulo de Desenvolvimento (ADESAMPA) em que um dos compromissos do Contrato de Gestão é uma ação do Programa de Metas: deve-se contabilizar a proporção do Contrato de Gestão equivalente às entregas do Programa de Metas.
+:::
+
+Não são consideradas despesas do Programa de Metas:
+
+-   Despesas de obras não previstas no Programa de Metas;
+
+-   Despesas de custeio de equipamentos, programas ou serviços implementados em período anterior ao Programa de Metas vigente;
+
+-   Despesas administrativas, cujo escopo contratado não tenha relação com metas ou ações previstas no Programa de Metas.
+
+::: callout-tip
+**A "regra de ouro" do monitoramento orçamentário do Programa de Metas é capturar:**
+
+-   **os novos investimentos e**
+
+-   **a expansão do custeio.**
+:::

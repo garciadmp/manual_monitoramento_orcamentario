@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Manual de Monitoramento Orçamentário do Programa de Metas 2025-2028"
+  author: "**(SEPLAN/SIME/CPMA)**"
+  chapters:
+    - index.qmd
+    - chap1.qmd
+    - chap2.qmd
+    - chap3.qmd
+    - chap4.qmd
+    - chap5.qmd
+    - chap6.qmd
+    - chap7.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    
+editor: visual
+

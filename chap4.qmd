@@ -1,0 +1,242 @@
+---
+title: "Quais são as etapas de monitoramento orçamentário?"
+---
+
+O monitoramento orçamentário do Programa de Metas segue um ciclo composto por quatro fases principais: (1) Previsão de Custo; (2) Orçamento Planejado; (3) Execução Orçamentária; (4) Avaliação. Cada estágio envolve etapas de análise, validação e consolidação das informações fornecidas pelos órgãos, para acompanhar a execução das metas e subsidiar a gestão dos recursos.
+
+## Previsão de custo
+
+A fase de **Previsão** marca o início do ciclo e consiste em informar a estimativa de custo quadrienal, segmentada por ano, para cada meta. A estimativa de custo se refere ao valor de mercado, calculado monetariamente, a partir do capital e do tempo gastos para a produção de um bem ou serviço necessário à realização da meta ou da ação estratégica.
+
+Para facilitar a classificação dos valores informados como estimativas de custos, o SMAE foi estruturado para que este dado seja inserido vinculando-o a uma dotação, porém, de forma simplificada (sem os elementos de despesa). Note, contudo, que esta informação não se refere ao valor aprovado na LOA (Lei Orçamenentária Anual) do exercício (este valor será informado em outra seção do SMAE, denominada **Orçamento planejado**, correspondente à proxima etapa do ciclo de monitoramento orçamentário).
+
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Aspecto**       | **Descrição**                                                                                                                                               |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Quando ocorre** | Até 15 de abril de cada exercício                                                                                                                           |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Quem faz**      | Secretarias                                                                                                                                                 |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Onde inserir**  | SMAE \> Visão orçamentária \> Previsão de Custo                                                                                                             |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **O que inserir** | O custo estimado da Meta ou Ação, ano a ano, até totalizar o quadriênio, informando partes da dotação orçamentária e vinculando a dotação à Meta ou à Ação. |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+**Passos para preenchimento no SMAE:**
+
+1.  Acesse a aba "Programa de Metas"
+2.  No menu lateral esquerdo, clique em "Metas"
+3.  Selecione a meta desejada
+4.  No menu lateral, clique em "Previsão de custo"
+
+![](figura1_tela_previsao_custo.png){width="100%," fig-align="left"}
+
+**Figura 1.** Tela de Previsão de Custo no SMAE.
+
+Na tela de **Previsão de Custo**, clique em "**(+) ADICIONAR PREVISÃO DE CUSTO"**. É nesta tela que você informará:
+
+-   dotação orçamentária (parcial): Órgão, Unidade, Função, Projeto/Atividade e Fonte. Os demais são opcionais;
+-   vinculação da dotação com a Meta OU com a ação estratégica;
+-   custo estimado da meta ou da ação
+
+::: callout-note
+O custo estimado da meta ou da ação é o valor monetário real, ou estimado, para a sua concretização, independentemente dos valores orçados e disponíveis nas dotações informadas.
+:::
+
+![](figura2_adicionar_previsao_custo.png){width="100%," fig-align="left"}
+
+**Figura 2.** Adicionando Previsão de Custo no SMAE.
+
+::: callout-note
+-   Embora a inserção da Previsão de Custo deva ser concluída no SMAE até abril de cada exercício, é possível que SEPLAN/SIME/CPMA colete, em fevereiro e março, informações adicionais junto à sua pasta, em complemento ao que estiver disponível no SMAE, para fins de construção do **ANEXO DE METAS E INVESTIMENTOS**, do Projeto de Lei de Diretrizes Orçamentárias (PLDO).
+
+-   Esta coleta adicional **não se confunde com o processo conduzido por SEPLAN/COPOM para a elaboração do PLDO**, cujo prazo de entrega ao Legislativo é 15 de abril, de cada ano e que, por isso, tende a demandar informações de caráter geral (e não restritas ao Programa de Metas) nos períodos de fevereiro e março.
+
+-   Note que a previsão de custo é mais intensiva no primeiro ano de vigência do Programa de Metas. Nos anos seguintes, podem ocorrer revisões. É plausível, inclusive, que a previsão de custo seja inserida uma única vez no quadriênio.
+
+-   Diversos fatores podem ensejar necessidade de revisão de custos:
+
+    -   Mudanças no modelo de implementação do equipamento, programa ou serviço (de execução direta para PPP, por exemplo);
+
+    -   Mudanças em variáveis macroeconômicas, preços de commodities e reequilíbrios econômico-financeiros de contratos;
+
+    -   Mudanças no escopo, prazos ou itens de qualidade previamente especificados para o equipamento, programa ou serviço;
+
+    -   Mudanças de fornecedores.
+
+-   É fundamental disponilizar para SEPLAN/SIME/CPMA **memórias de cálculo** sobre o custo da meta. Combine com o(a) ponto focal o meio para entrega (SMAE, e-mail), mas não deixe de apresentar a composição do custo do equipamento, programa ou serviço pactuado no Programa de Metas.
+
+-   **As informações sobre custos não fazem parte do monitoramento externo** do Programa de Metas, ou seja, não são disponibilizadas publicamente nos Relatórios de Execução Anual e nos Balanços Semestrais.
+:::
+
+## Orçamento planejado
+
+O registro do orçamento planejado no SMAE consiste em informar os valores efetivamente contemplados na Lei Orçamentária de cada ano, nas dotações vinculadas ao Programa de Metas.
+
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Aspecto**       | **Descrição**                                                                                                                                         |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Quando ocorre** | Até 15 de abril de cada exercício                                                                                                                     |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Quem faz**      | Secretarias                                                                                                                                           |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Onde inserir**  | SMAE \> Visão orçamentária \> Orçamento planejado                                                                                                     |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **O que inserir** | Valor destinado ao Programa de Metas para o exercício, no limite dos valores orçados aprovados na Lei de Orçamento Anual, vinculando-o à Meta ou Ação |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+**Passos para preenchimento no SMAE:**
+
+1.  Acesse a aba "Programa de Metas"
+2.  No menu lateral esquerdo, clique em "Metas"
+3.  Selecione a meta desejada
+4.  No menu lateral, clique em "Orçamento Planejado"
+
+![](figura3_tela_orcamento_planejado.png){width="100%," fig-align="left"}
+
+**Figura 3.** Tela de Orçamento Planejado no SMAE.
+
+Na tela de **Orçamento Planejado**, clique em "**(+) ADICIONAR DOTAÇÃO"**. É nesta tela que você informará:
+
+-   dotação orçamentária completa;
+-   vinculação da dotação com a Meta OU com a ação estratégica;
+-   Valor da meta ou da ação para o exercício, limitado ao valor aprovado na LOA.
+
+![](figura4_adicionar_orcamento_planejado.png){width="100%," fig-align="left"}
+
+**Figura 4.** Adicionando Orçamento Planejado no SMAE.
+
+::: callout-note
+Note que se as informações sobre a **PREVISÃO DE CUSTO** e sobre o **ORÇAMENTO PLANEJADO** estiverem adequadamente registradas no SMAE, tanto a sua pasta quanto SEPLAN conseguem mapear eventuais **PRESSÕES ORÇAMENTÁRIAS** para cada exercício. Em outras palavras, se em uma determinada dotação o custo previsto for maior que o valor orçado, é provável que a sua pasta necessitará de mais recursos.
+:::
+
+## Execução orçamentária
+
+O registro da execução orçamentária no SMAE consiste em informar os valores efetivamente empenhados e liquidados com despesas do Programa de Metas.
+
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Aspecto**       | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                             |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Quando ocorre** | -   **Até 15 de janeiro**: referente à execução orçamentária acumulada do **exercício anterior**;                                                                                                                                                                                                                                                                                                                                         |
+|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                   | -   **Até 15 de abril**: referente à execução acumulada dos **três primeiros meses do exercício**;                                                                                                                                                                                                                                                                                                                                        |
+|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                   | -   **Até 15 de julho**: referente à execução acumulada dos **seis primeiros meses do exercício**;                                                                                                                                                                                                                                                                                                                                        |
+|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                   | -   **Até 15 de outubro**: referente à execução acumulada dos **noves primeiros meses do exercício**.                                                                                                                                                                                                                                                                                                                                     |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Quem faz**      | Secretarias                                                                                                                                                                                                                                                                                                                                                                                                                               |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Onde inserir**  | SMAE \> Visão orçamentária \> Execução orçamentária                                                                                                                                                                                                                                                                                                                                                                                       |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **O que inserir** | Despesas contabilizadas para fins de monitoramento orçamentário do Programa de Metas, apuradas em:                                                                                                                                                                                                                                                                                                                                        |
+|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                   | -   **dotações orçamentárias**: devem ser utilizadas apenas quando existir **dotação orçamentária exclusiva** para o equipamento, programa ou serviço pactuado no Programa de Metas, de forma que todas as despesas que oneram a referida dotação sejam passíveis de contabilização para fins de monitoramento orçamentário do PdM.                                                                                                       |
+|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                   | -   **processos SEI**: devem ser utilizados quando não há dotação exclusiva, mas a despesa do Programa de Metas ocorreu por meio de uma **contratação exclusiva** para a entrega do equipamento, programa ou serviço pactuado no Programa de Metas. Nesses casos, deve-se informar os números dos processos de contratação (processos com Notas de Empenho) e os processos de pagamentos (processos com Notas de Liquidação e Pagamento). |
+|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                   | -   **notas de empenho**: devem ser utilizadas quando parte de uma contratação é destinada aos compromissos do Programa de Metas ou quando o período de uma contratação exclusiva extrapola um exercício. Trata-se do nível de maior granularidade para o monitoramento orçamentário e, por esta razão, é **preferível em relação às demais opções**.                                                                                     |
++-------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+**Passos para preenchimento no SMAE:**
+
+1.  Acesse a aba "Programa de Metas"
+2.  No menu lateral esquerdo, clique em "Metas"
+3.  Selecione a meta desejada
+4.  No menu lateral, clique em "Execução Orçamentária"
+
+![](figura5_tela_execucao_orcamentaria.png){width="100%," fig-align="left"}
+
+**Figura 5.** Tela de Execução Orçamentária no SMAE.
+
+Após analisar o atributo de **exclusividade** das dotações e contratações, opte se a execução orçamentária acumulada do período será informada por **dotação, processo ou nota de empenho**.
+
+### Dotação
+
+![](figura6_adicionar_execucao_dotacao.png){width="100%," fig-align="left"}
+
+**Figura 6.** Adicionando Execução Orçamentária no SMAE, por dotação.
+
+Após fazer a vinculação da dotação orçamentária com a meta ou com a ação estratégica:
+
+1.  Clique em "**(+) INFORMAR EXECUÇÃO ORÇAMENTÁRIA**".
+
+2.  Informe o **mês de referência**: trata-se do mês até o qual os valores executados estão acumulados.
+
+3.  Informe o **Valor Executado**: trata-se do valor acumulado até o mês de referência. É possível obter o valor executado tanto pela inserção direta do valor quanto pela percentagem (0 a 100) referente ao Programa de Metas na dotação orçamentária informada.
+
+4.  Clique em **Salvar** para finalizar.
+
+![](figura7_adicionar_execucao_dotacao_complemento.png){width="100%," fig-align="left"}
+
+**Figura 7.** Adicionando Execução Orçamentária no SMAE, por dotação -- inserindo valores.
+
+### Processo
+
+![](figura8_adicionar_execucao_processo.png){width="100%," fig-align="left"}
+
+**Figura 8.** Adicionando Execução Orçamentária no SMAE, por processo.
+
+Após selecionar a dotação orçamentária e fazer a vinculação com a meta ou com a ação estratégica, sigo os passos da **Figura 7**:
+
+1.  Clique em "**(+) INFORMAR EXECUÇÃO ORÇAMENTÁRIA**".
+
+2.  Informe o **mês de referência**: trata-se do mês até o qual os valores executados estão acumulados.
+
+3.  Informe o **Valor Executado**: trata-se do valor acumulado até o mês de referência. É possível obter o valor executado tanto pela inserção direta do valor quanto pela percentagem (0 a 100) referente ao Programa de Metas na dotação orçamentária informada.
+
+4.  Clique em **Salvar** para finalizar.
+
+### Nota de empenho
+
+![](figura9_adicionar_execucao_nota_empenho.png){width="100%," fig-align="left"}
+
+**Figura 9.** Adicionando Execução Orçamentária no SMAE, por nota de empenho.
+
+Após informar o número e o ano da nota de empenho, siga os passos da **Figura 7**:
+
+1.  Clique em "**(+) INFORMAR EXECUÇÃO ORÇAMENTÁRIA**".
+
+2.  Informe o **mês de referência**: trata-se do mês até o qual os valores executados estão acumulados.
+
+3.  Informe o **Valor Executado**: trata-se do valor acumulado até o mês de referência. É possível obter o valor executado tanto pela inserção direta do valor quanto pela percentagem (0 a 100) referente ao Programa de Metas na dotação orçamentária informada.
+
+4.  Clique em **Salvar** para finalizar.
+
+### Upload de arquivo .xlsx
+
+Se deseja informar os dados de execução orçamentária via planilha:
+
+1.  Acesse a aba "Programa de Metas";
+
+2.  No menu lateral esquerdo, clique em "Envio de arquivos".
+
+![](figura10_tela_envio_arquivos.png){width="100%," fig-align="left"}
+
+**Figura 10.** Tela para informar execução orçamentária via upload de arquivo .xlsx.
+
+3.  Selecione a versão do PdM que está em uso;
+
+4.  Escolha a opção "enviar arquivo", localizada no canto superior direito.
+
+![](figura11_tela_envio_arquivos_complemento.png){width="100%," fig-align="left"}
+
+**Figura 11.** Tela para informar execução orçamentária via upload de arquivo .xlsx.
+
+A planilha a ser inserida deve seguir o seguinte modelo:
+
+![](figura12_modelo_planilha_upload.png){fig-align="left" width="100%"}
+
+**Figura 12.** Modelo de planilha para informar execução orçamentária via upload de arquivo .xlsx.
+
+Durante o preenchimento, alguns padrões precisam ser seguidos para que o SMAE processe os dados:
+
+-   É necessário selecionar apenas uma forma de identificação das informações a serem inseridas, ou seja, dotação, processo SEI ou nota de empenho. Caso uma mesma linha da planilha contenha mais de um desses campos (por exemplo, o número da dotação e da nota de empenho simultaneamente), o SMAE não processará os dados corretamente, exigindo nova submissão da planilha ou ajuste manual das informações.
+
+-   No caso dos processos SEI, se o órgão optar por essa forma de identificação, é necessário informar, junto ao número do processo, a dotação orçamentária, pois pode haver mais de uma dotação vinculada a um mesmo processo. Caso essa especificação não seja incluída, o SMAE não processará a informação.
+
+-   As metas sempre devem ser informadas com três dígitos, como 002, 076 ou 114.
+
+## Avaliação
+
+A fase de Avaliação é realiada por **SEPLAN/SIME/CPMA**, com a consolidação dos dados obtidos nas etapas anteriores, permitindo à SEPLAN analisar o desempenho orçamentário e identificar riscos que possam comprometer o atingimento das metas, como inexecução de recursos, contingenciamentos ou descompasso entre gastos e entregas. A partir dessa análise, são elaboradas recomendações e orientações técnicas voltadas ao aperfeiçoamento da execução orçamentária e à mitigação de riscos.
