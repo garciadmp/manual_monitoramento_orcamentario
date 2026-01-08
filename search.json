@@ -70,32 +70,74 @@
     "text": "6.2 Difusão do uso do SMAE\nPara saber mais sobre o Sistema de Monitoramento e Acompanhamento Estratégico (SMAE), conheça a sua página institucional.\nAlém do módulo do Programa de Metas, no qual o monitoramento orçamentário objeto deste manual, é uma das etapas, o Sistema de Monitoramento e Acompanhamento Estratégico pode agregar valor ao seu órgão por meio de outros módulos:\n\nMódulo de Planos Setoriais: para saber mais, contate: programademetas@prefeitura.sp.gov.br\nMódulo de Gestão de Projetos: para saber mais, contate: fabricioreis@prefeitura.sp.gov.br"
   },
   {
-    "objectID": "chap6.html#questão-1",
-    "href": "chap6.html#questão-1",
+    "objectID": "chap6.html#a-previsão-de-custo-e-orçamento-planejado-podem-ser-inseridos-no-smae-por-meio-de-upload-de-planilha",
+    "href": "chap6.html#a-previsão-de-custo-e-orçamento-planejado-podem-ser-inseridos-no-smae-por-meio-de-upload-de-planilha",
     "title": "7  Questões frequentes",
-    "section": "7.1 Questão 1",
-    "text": "7.1 Questão 1\nResposta 1."
+    "section": "7.1 A previsão de custo e orçamento planejado podem ser inseridos no SMAE por meio de upload de planilha?",
+    "text": "7.1 A previsão de custo e orçamento planejado podem ser inseridos no SMAE por meio de upload de planilha?\nNão. O upload de planilha funciona apenas para a execução orçamentária."
   },
   {
-    "objectID": "chap6.html#questão-2",
-    "href": "chap6.html#questão-2",
+    "objectID": "chap6.html#o-que-fazer-quando-for-necessário-atualizar-a-previsão-de-custo-fora-da-janela-de-abril",
+    "href": "chap6.html#o-que-fazer-quando-for-necessário-atualizar-a-previsão-de-custo-fora-da-janela-de-abril",
     "title": "7  Questões frequentes",
-    "section": "7.2 Questão 2",
-    "text": "7.2 Questão 2\nResposta 2."
+    "section": "7.2 O que fazer quando for necessário atualizar a previsão de custo fora da janela de abril?",
+    "text": "7.2 O que fazer quando for necessário atualizar a previsão de custo fora da janela de abril?\nBasta informar o ponto focal de SEPLAN/SIME/CPMA de sua pasta e proceder com a atualização."
   },
   {
-    "objectID": "chap6.html#questão-3",
-    "href": "chap6.html#questão-3",
+    "objectID": "chap6.html#de-partida-sabemos-que-o-orçamento-da-meta-está-deficitário.-neste-caso-como-deve-ser-feita-a-previsão-de-custo-e-o-orçamento-planejado",
+    "href": "chap6.html#de-partida-sabemos-que-o-orçamento-da-meta-está-deficitário.-neste-caso-como-deve-ser-feita-a-previsão-de-custo-e-o-orçamento-planejado",
     "title": "7  Questões frequentes",
-    "section": "7.3 Questão 3",
-    "text": "7.3 Questão 3\nResposta 3."
+    "section": "7.3 De partida, sabemos que o orçamento da meta está deficitário. Neste caso, como deve ser feita a previsão de custo e o orçamento planejado?",
+    "text": "7.3 De partida, sabemos que o orçamento da meta está deficitário. Neste caso, como deve ser feita a previsão de custo e o orçamento planejado?\nA previsão deve ser a mais realista possível, sem subestimar e nem superestimar os valores, registrando-se o valor na seção “Previsão de Custo”. O valor aprovado na Lei Orçamentária Anual (LOA) deve ser preenchido na seção “Orçamento planejado”. A diferença entre esses valores (déficit, no caso) é uma informação importante para tomada de decisões."
   },
   {
-    "objectID": "chap6.html#questão-4",
-    "href": "chap6.html#questão-4",
+    "objectID": "chap6.html#o-que-significam-os-campos-da-dotação-orçamentária-como-fonte-e-conta-despesa",
+    "href": "chap6.html#o-que-significam-os-campos-da-dotação-orçamentária-como-fonte-e-conta-despesa",
     "title": "7  Questões frequentes",
-    "section": "7.4 Questão 4",
-    "text": "7.4 Questão 4\nResposta 4."
+    "section": "7.4 O que significam os campos da dotação orçamentária, como fonte e conta despesa?",
+    "text": "7.4 O que significam os campos da dotação orçamentária, como fonte e conta despesa?\nPara informações sobre os códigos utilizados para classificação das despesas, ver o Manual de elaboração da proposta orçamentária."
+  },
+  {
+    "objectID": "chap6.html#fiz-o-upload-da-planilha-de-execução-orçamentária-informando-o-processo-processo-sei-porém-está-dando-erro.-o-que-fazer",
+    "href": "chap6.html#fiz-o-upload-da-planilha-de-execução-orçamentária-informando-o-processo-processo-sei-porém-está-dando-erro.-o-que-fazer",
+    "title": "7  Questões frequentes",
+    "section": "7.5 Fiz o upload da planilha de execução orçamentária informando o processo (processo SEI) porém está dando erro. O que fazer?",
+    "text": "7.5 Fiz o upload da planilha de execução orçamentária informando o processo (processo SEI) porém está dando erro. O que fazer?\nO próprio SMAE faz uma análise do erro em cada linha da planilha. Um dos erros mais comuns que ocorrem é dentro de um processo SEI, pode haver mais de uma dotação e o SMAE não consegue identificar a qual dotação se refere o empenho e liquidação. Nesse caso, é necessário subir novamente a planilha informando além do processo SEI, a dotação."
+  },
+  {
+    "objectID": "chap6.html#tive-zero-execução-orçamentária-para-a-meta-como-prosseguir-nesse-caso",
+    "href": "chap6.html#tive-zero-execução-orçamentária-para-a-meta-como-prosseguir-nesse-caso",
+    "title": "7  Questões frequentes",
+    "section": "7.6 Tive zero execução orçamentária para a meta, como prosseguir nesse caso?",
+    "text": "7.6 Tive zero execução orçamentária para a meta, como prosseguir nesse caso?\nDeve-se realizar duas ações. Primeiro, informar na seção de “Previsão de custo” se esta não execução afeta os valores previstos parra os próximos exercícios. Com relação à execução orçamentária, em princípio, se não houver empenho ou liquidação não precisa lançar no SMAE, mas caso queira informar zero de execução orçamentária no sistema, você deve seguir o passo a passo de preenchimento da execução orçamentária para a meta ou ação, e após seleção da dotação, informar zero no empenho e liquidação."
+  },
+  {
+    "objectID": "chap6.html#deve-se-considerar-restos-a-pagar",
+    "href": "chap6.html#deve-se-considerar-restos-a-pagar",
+    "title": "7  Questões frequentes",
+    "section": "7.7 Deve-se considerar restos a pagar?",
+    "text": "7.7 Deve-se considerar restos a pagar?\nSim. Desde que tenha ocorrido com objeto diretamente relacionado ao Programa de Metas."
+  },
+  {
+    "objectID": "chap6.html#despesas-de-exercícios-anteriores-dea-devem-ser-monitoradas",
+    "href": "chap6.html#despesas-de-exercícios-anteriores-dea-devem-ser-monitoradas",
+    "title": "7  Questões frequentes",
+    "section": "7.8 Despesas de Exercícios Anteriores (DEA) devem ser monitoradas?",
+    "text": "7.8 Despesas de Exercícios Anteriores (DEA) devem ser monitoradas?\nSim. Desde que tenha ocorrido com objeto diretamente relacionado ao Programa de Metas."
+  },
+  {
+    "objectID": "chap6.html#deve-se-preencher-a-execução-orçamentária-de-ações-que-foram-descontinuadas",
+    "href": "chap6.html#deve-se-preencher-a-execução-orçamentária-de-ações-que-foram-descontinuadas",
+    "title": "7  Questões frequentes",
+    "section": "7.9 Deve-se preencher a execução orçamentária de ações que foram descontinuadas?",
+    "text": "7.9 Deve-se preencher a execução orçamentária de ações que foram descontinuadas?\nCaso tenha havido a interrupção da alternativa A e adoção da alternativa B, para a realização de uma ação estratégica ou de uma meta, deve-se computar a execução orçamentária da alternativa A, até o seu último dispêndio e, posteriormente, seguir com o monitoramento orçamentário da alternativa B."
+  },
+  {
+    "objectID": "chap6.html#posso-realizar-pedidos-de-suplementação-pelo-smae",
+    "href": "chap6.html#posso-realizar-pedidos-de-suplementação-pelo-smae",
+    "title": "7  Questões frequentes",
+    "section": "7.10 Posso realizar pedidos de suplementação pelo SMAE?",
+    "text": "7.10 Posso realizar pedidos de suplementação pelo SMAE?\nNão. Os pedidos de suplementação devem ser feitos conforme o decreto de execução orçamentária de cada exercício."
   },
   {
     "objectID": "chap7.html#programa-de-metas",
