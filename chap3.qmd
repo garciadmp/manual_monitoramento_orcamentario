@@ -16,16 +16,18 @@ São consideradas despesas do Programa de Metas:
 
 -   Despesas para o custeio de equipamentos, programas ou serviços implementados;
 
--   Despesas de exercícios anteriores (DEA), desde que restritos aos itens anteriores.
+-   Despesas de exercícios anteriores (DEA), desde que restritos aos itens anteriores com entregas físicas referentes ao Programa de Metas 2025-2028.
 
 ::: callout-note
 **Exemplos**
 
 A Secretaria da Educação (SME) está realizando obras via SP-OBRAS para inaugurar um novo Centro Educacional Unificado (CEU) em agosto de 2026: antes da inauguração, deve-se contabilizar os valores com projetos, estudos, obras, desapropriações (se houver). Após a inauguração, deve-se contabilizar: despesas com segurança, contas de consumo, pessoal (apenas se tiver havido contratação específica para esse fim).
 
-A Secretaria de Saúde (SMS) vai aumentar o repasse a uma Organização Social (OS) para que um novo prédio seja reformado e uma nova Unidade Básica de Saúde (UBS) entre em funcionamento: deve-se contabilizar o valor excedente repassado a OS.
+A Secretaria de Saúde (SMS) vai aumentar o repasse a uma Organização Social (OS) para que um novo prédio seja reformado e uma nova Unidade Básica de Saúde (UBS) entre em funcionamento: deve-se contabilizar o valor excedente repassado a OS e outros custos associados à manutenção do equipamento.
 
 A Secretaria de Desenvolvimento Econômico e Trabalho (SMDET) pactuou novo contrato de gestão com a Agência São Paulo de Desenvolvimento (ADESAMPA) em que um dos compromissos do Contrato de Gestão é uma ação do Programa de Metas: deve-se contabilizar a proporção do Contrato de Gestão equivalente às entregas do Programa de Metas.
+
+A Secretaria de Gestão (SEGES) contratou docentes externos para realizar cursos previstos no Programa de Metas: deve-se contabilizar o pagamento aos docentes.
 :::
 
 Não são consideradas despesas do Programa de Metas:
@@ -43,3 +45,5 @@ Não são consideradas despesas do Programa de Metas:
 
 -   **a expansão do custeio.**
 :::
+
+Os gastos em dotações que envolvem ações orçamentárias abrangentes (como 2100, 2171 etc.) tendem a configurar a maior dificuldade de prestação de informações sobre o planejamento de custo e a execução orçamentária do Programa de Metas. Nesses casos, **defina critérios, juntamente com SEPLAN/SIME/CPMA, e pactuem uma memória de cálculo**.

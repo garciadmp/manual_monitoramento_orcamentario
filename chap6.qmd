@@ -2,18 +2,42 @@
 title: "Questões frequentes"
 ---
 
-## Questão 1
+## A previsão de custo e orçamento planejado podem ser inseridos no SMAE por meio de upload de planilha?
 
-Resposta 1.
+Não. O upload de planilha funciona apenas para a execução orçamentária.
 
-## Questão 2
+## O que fazer quando for necessário atualizar a previsão de custo fora da janela de abril?
 
-Resposta 2.
+Basta informar o ponto focal de SEPLAN/SIME/CPMA de sua pasta e proceder com a atualização.
 
-## Questão 3
+## De partida, sabemos que o orçamento da meta está deficitário. Neste caso, como deve ser feita a previsão de custo e o orçamento planejado?
 
-Resposta 3.
+A previsão deve ser a mais realista possível, sem subestimar e nem superestimar os valores, registrando-se o valor na seção "Previsão de Custo". O valor aprovado na Lei Orçamentária Anual (LOA) deve ser preenchido na seção "Orçamento planejado". A diferença entre esses valores (déficit, no caso) é uma informação importante para tomada de decisões.
 
-## Questão 4
+## O que significam os campos da dotação orçamentária, como fonte e conta despesa?
 
-Resposta 4.
+Para informações sobre os códigos utilizados para classificação das despesas, ver o [Manual de elaboração da proposta orçamentária](https://orcamento.sf.prefeitura.sp.gov.br/orcamento/uploads/2026/SUPOMManualdaProposta2026.pdf).
+
+## Fiz o upload da planilha de execução orçamentária informando o processo (processo SEI) porém está dando erro. O que fazer?
+
+O próprio SMAE faz uma análise do erro em cada linha da planilha. Um dos erros mais comuns que ocorrem é dentro de um processo SEI, pode haver mais de uma dotação e o SMAE não consegue identificar a qual dotação se refere o empenho e liquidação. Nesse caso, é necessário subir novamente a planilha informando além do processo SEI, a dotação.
+
+## Tive zero execução orçamentária para a meta, como prosseguir nesse caso?
+
+Deve-se realizar duas ações. Primeiro, informar na seção de "Previsão de custo" se esta não execução afeta os valores previstos parra os próximos exercícios. Com relação à execução orçamentária, em princípio, se não houver empenho ou liquidação não precisa lançar no SMAE, mas caso queira informar zero de execução orçamentária no sistema, você deve seguir o passo a passo de preenchimento da execução orçamentária para a meta ou ação, e após seleção da dotação, informar zero no empenho e liquidação.
+
+## Deve-se considerar restos a pagar?
+
+Sim. Desde que tenha ocorrido com objeto diretamente relacionado ao Programa de Metas, dentro do período 2025-2028.
+
+## Despesas de Exercícios Anteriores (DEA) devem ser monitoradas?
+
+Sim. Desde que tenha ocorrido com objeto diretamente relacionado ao Programa de Metas, dentro do período 2025-2028.
+
+## Deve-se preencher a execução orçamentária de ações que foram descontinuadas?
+
+Caso tenha havido a interrupção da alternativa A e adoção da alternativa B, para a realização de uma ação estratégica ou de uma meta, deve-se computar a execução orçamentária da alternativa A, até o seu último dispêndio e, posteriormente, seguir com o monitoramento orçamentário da alternativa B.
+
+## Posso realizar pedidos de suplementação pelo SMAE?
+
+Não. Os pedidos de suplementação devem ser feitos conforme o decreto de execução orçamentária de cada exercício.

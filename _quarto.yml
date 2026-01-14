@@ -16,6 +16,8 @@ book:
 
 bibliography: references.bib
 
+lang: pt
+
 format:
   html:
     theme: cosmo
