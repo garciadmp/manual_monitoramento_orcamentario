@@ -214,7 +214,7 @@ O envio de dados sobre execução orçamentária por meio de upload de arquivo .
 
 -   permitir que o órgão preste contas de diferentes metas em um mesmo arquivo;
 
--   permitir que o órgão revise as informações antes de fazer o upload e cheque eventuais inconsistências apontadas pelo próprio SMAE.
+-   permitir que o órgão revise as informações antes de fazer o upload e cheque eventuais inconsistências apontadas pelo próprio SMAE, após fazer o upload.
 :::
 
 Se deseja informar os dados de execução orçamentária via planilha:
@@ -235,7 +235,7 @@ Se deseja informar os dados de execução orçamentária via planilha:
 
 **Figura 11.** Tela para informar execução orçamentária via upload de arquivo .xlsx.
 
-A planilha a ser inserida deve seguir o seguinte modelo, que foi enviada por e-mail, mas pode ser baixada neste link:
+A planilha a ser inserida deve seguir o seguinte [modelo](https://github.com/garciadmp/manual_monitoramento_orcamentario/raw/refs/heads/main/planilha-modelo-upload-execucao-orcamentaria.xlsx). Note que ela vem com dados preenchidos a título de exemplo. Exclua ou sobrescreva com as informações do seu órgão:
 
 ![](figura12_modelo_planilha_upload.png){fig-align="left" width="100%"}
 
@@ -244,9 +244,9 @@ A planilha a ser inserida deve seguir o seguinte modelo, que foi enviada por e-m
 Durante o preenchimento, alguns padrões precisam ser seguidos para que o SMAE processe os dados:
 
 ::: callout-important
-Não altere os nomes das colunas. São eles que permitem o cadastro adequado das informações no SMAE e a checagem com o SOF.
+**Não altere os nomes das colunas**. São eles que permitem o cadastro adequado das informações no SMAE e a checagem com o SOF.
 
-Ao fazer o preenchimento dos dados, **cheque se há espaços sobressalentes**, já que são contados como caracter e podem inviabilizar o cruzamento automático com o SOF.
+Ao fazer o preenchimento dos dados, **cheque se há espaços sobressalentes**, já que são contados como caracteres e podem inviabilizar o cruzamento automático com o SOF.
 :::
 
 -   **ano**: preencha com o ano ao qual a execução orçamentária faz referência (portanto, será: 2025, 2026, 2027 ou 2028)
